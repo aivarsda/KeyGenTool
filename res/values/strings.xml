@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="info">KeyGenTool will get the HashKey of the required application.</string>
+    <string name="about">KeyGenTool is a developers tool that will be useful for those who are willng to develop a Facebok App. In order to use the Fasebook SDK in your signed application you will need to provide Facebook with your Android App HashKey for authentication. The KeyGenTool will get that HashKey for you.</string>
+    <string name="howtouse">1. Install the App you are willng to use with Facebook SDK.\n2. Choose your App package name from the list.\n3. Press GetHashKey button.</string>
+    <string name="enter_pkg_name">Choose the PackageName</string>
+    <string name="app_name">KeyGenTool</string>
+    <string name="dev_name">Aivars Dalderis</string>
+    
+</resources>

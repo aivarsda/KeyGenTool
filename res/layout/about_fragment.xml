@@ -1,0 +1,141 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:padding="10dp"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_grey_border"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical" >
+
+            <ImageView
+                android:id="@+id/icon"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/icon"
+                android:gravity="center_vertical"
+                android:text="@string/app_name"
+                android:textColor="@color/yellow"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="3dp"
+            android:background="@color/orange" />
+
+        <TextView
+            style="@style/Text"
+            android:layout_marginTop="5dp"
+            android:text="Short Info"
+            android:textColor="@color/green_light"
+            android:textSize="16sp" />
+
+        <TextView
+            style="@style/Text"
+            android:layout_marginTop="3dp"
+            android:text="@string/about"
+            android:textColor="@color/yellow"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/orange" />
+
+        <TextView
+            style="@style/Text"
+            android:layout_marginTop="10dp"
+            android:text="How To Use"
+            android:textColor="@color/green_light"
+            android:textSize="16sp" />
+
+        <TextView
+            style="@style/Text"
+            android:layout_marginTop="3dp"
+            android:gravity="center_vertical|left"
+            android:text="@string/howtouse"
+            android:textColor="@color/yellow"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/orange" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/Text"
+                android:layout_width="wrap_content"
+                android:text="Developer :  "
+                android:textColor="@color/yellow"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/developer_name_tv"
+                style="@style/Text"
+                android:layout_width="wrap_content"
+                android:text="@string/dev_name"
+                android:textColor="@color/green_light"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/Text"
+                android:layout_width="wrap_content"
+                android:text="GitHub Project :  "
+                android:textColor="@color/yellow"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/github_link_tv"
+                style="@style/Text"
+                android:layout_width="wrap_content"
+                android:text="GitHub"
+                android:textColor="@color/green_light"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
