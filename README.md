@@ -5,10 +5,14 @@ KeyGenTool is a developers tool that will be useful for those who are willng to 
 
 How To Use
 --------------
+[![Get it on Google Play](https://raw.github.com/repat/README-template/master/googleplay.png)](https://play.google.com/store/apps/details?id=com.aivarsda.keygentool)
 - 1. Install the App you are willng to use with Facebook SDK.
 - 2. Choose your App package name from the list.
 - 3. Press GetHashKey button.
 
-Developer
---------------
-Aivars Dalderis <aivars.dalderis@gmail.com>
+## Contact
+Aivars Dalderis
+* e-mail: <aivars.dalderis@gmail.com>
+* LinkedIn: [Aivars LinkedIn](http://il.linkedin.com/in/aivarsd)
+
+ 
