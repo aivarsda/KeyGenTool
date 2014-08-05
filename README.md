@@ -18,6 +18,6 @@ How To Use
 ## Contact
 Aivars Dalderis
 * e-mail: <aivars.dalderis@gmail.com>
-* LinkedIn: [Aivars LinkedIn](http://il.linkedin.com/in/aivarsd)
+* LinkedIn: [Aivars Dalderis LinkedIn](http://il.linkedin.com/in/aivarsd)
 
  
